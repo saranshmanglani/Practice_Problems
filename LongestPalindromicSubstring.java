@@ -1,11 +1,11 @@
-/* Program to find Biggest Palindromic Substring in a String.
+/* Program to find Longest Palindromic Substring in a String.
    Eg.
 	Input : BANANA
 	Output: ANANA
 */
 
 import java.io.*;
-class BiggestPalindromicSubstring
+class LongestPalindromicSubstring
 {
 	public boolean checkPalindrome(String str,int len)
 	{
@@ -44,7 +44,7 @@ class BiggestPalindromicSubstring
 	public static void main(String args[])throws IOException
 	{
 		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
-		BiggestPalindromicSubstring obj=new BiggestPalindromicSubstring();
+		LongestPalindromicSubstring obj=new BiggestPalindromicSubstring();
 		System.out.println("Enter a String");
 		String str=br.readLine();
 		str=str.toUpperCase();
